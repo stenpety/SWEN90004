@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class SeqQuick {
 
-  private static int ARRAY_SIZE = 2000; 
+  private static int ARRAY_SIZE = 1000;
 
   private int [] a;
   private int lo, hi;
@@ -22,7 +22,7 @@ public class SeqQuick {
   }
 
   private void quicksort() {
- 
+
     // quicksort until the array is largely sorted
     if (lo + 60 < hi) {
       int pivot = partition(lo, hi);
@@ -34,7 +34,7 @@ public class SeqQuick {
       new SeqQuick(a, pivot+1, hi).quicksort();
     }
     // finish with a quick insertion sort
-    insertionsort(lo, hi);
+    insertionSort(lo, hi);
   }
 
   private int partition(int lo, int hi) {
@@ -84,7 +84,7 @@ public class SeqQuick {
     return j;
   }
   
-  private void insertionsort(int lo, int hi) {
+  private void insertionSort(int lo, int hi) {
 
     int i, j, v;
 
@@ -99,15 +99,14 @@ public class SeqQuick {
     }
   }
 
-  public static void main(String [] args)
-  {  
-    //create an array 
+  public static void main(String [] args) {
+    /* create an array */
     int [] a = new int[ARRAY_SIZE];
     Random rand = new Random();
     
     // populate the array with random integers
     for(int i = 0; i < a.length; i++) {
-      a[i] = rand.nextInt();
+      a[i] = rand.nextInt(1000);
     }
 
     //sort the array
@@ -115,4 +114,5 @@ public class SeqQuick {
   
     System.out.println(Arrays.toString(a));
   }
+
 }
