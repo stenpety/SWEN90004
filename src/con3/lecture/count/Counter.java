@@ -1,3 +1,5 @@
+package con3.lecture.count;
+
 class Counter {
   int value = 0;
 

@@ -1,3 +1,5 @@
+package con3.lecture.count;
+
 class UseCounter extends Thread {
   Counter c;
 

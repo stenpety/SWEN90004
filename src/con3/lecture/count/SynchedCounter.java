@@ -1,3 +1,5 @@
+package con3.lecture.count;
+
 class SynchedCounter extends Counter {
   synchronized void increment() {
     int temp = value;
