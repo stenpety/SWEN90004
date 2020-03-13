@@ -1,83 +1,75 @@
 package con3.tute;
 
-class P extends Thread
-{
-  //the shared synch instance
-  protected Synchronise s;
+class P extends Thread {
+    //the shared synch instance
+    protected Synchronise s;
 
-  public P(Synchronise s)
-  {
-    this.s = s;
-  }
-
-  public void run()
-  {
-    while (true) {
-      task1p();
-      s.synch();
-      task2p();
+    public P(Synchronise s)
+    {
+        this.s = s;
     }
-  }
 
-  private void task1p()
-  {
-    System.out.println("1p");
-  }
-
-  private void task2p()
-  {
-    System.out.println("2p");
-  }
-}
-
-class Q extends Thread
-{
-  //the shared synch instance
-  protected Synchronise s;
-
-  public Q(Synchronise s)
-  {
-    this.s = s;
-  }
-
-  public void run()
-  {
-    while (true) {
-      task1q();
-      s.synch();
-      task2q();
+    public void run() {
+        while (true) {
+            task1p();
+            s.synch();
+            task2p();
+        }
     }
-  }
 
-  private void task1q()
-  {
-    System.out.println("1q");
-  }
+    private void task1p()
+    {
+        System.out.println("1p");
+    }
 
-  private void task2q()
-  {
-    System.out.println("2q");
-  }
+    private void task2p()
+    {
+        System.out.println("2p");
+    }
 }
 
-class Synchronise
-{
-  // any useful variables go here
+class Q extends Thread {
+    //the shared synch instance
+    protected Synchronise s;
 
-  public synchronized void synch()
-  {
-    // the code to synchronise goes here
-  }
+    public Q(Synchronise s)
+    {
+        this.s = s;
+    }
+
+    public void run() {
+        while (true) {
+            task1q();
+            s.synch();
+            task2q();
+        }
+    }
+
+    private void task1q()
+    {
+        System.out.println("1q");
+    }
+
+    private void task2q()
+    {
+        System.out.println("2q");
+    }
 }
 
-class UseSynchronise
-{
-  public static void main(String [] args)
-  {
-    Synchronise s = new Synchronise();
-    Thread p = new P(s);
-    Thread q = new Q(s);
-    p.start();
-    q.start();
-  }
+class Synchronise {
+    // any useful variables go here
+
+    public synchronized void synch() {
+        // the code to synchronise goes here
+    }
+}
+
+class UseSynchronise {
+    public static void main(String [] args) {
+        Synchronise s = new Synchronise();
+        Thread p = new P(s);
+        Thread q = new Q(s);
+        p.start();
+        q.start();
+    }
 }

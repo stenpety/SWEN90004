@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fd0b963-6002-4ad3-8980-aece580a1640" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/con3/tute/UseBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/con3/tute/UseBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/con3/tute/UseSynchronise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/con3/tute/UseSynchronise.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Petr Stenin &lt;petr.stenin@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Uxu7sEDzAygJ8HiZ4z5mg0RnvJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576308651827" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/con3/tute" />
+      <recent name="$PROJECT_DIR$/src/con3/lecture/count" />
+      <recent name="$PROJECT_DIR$/src/con3/lecture" />
+      <recent name="$PROJECT_DIR$/src/con02/tute" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="con02.tute" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/con02/tute" />
+      <recent name="$PROJECT_DIR$/src/con02/lecture" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CON3-UseSync">
+    <configuration name="Attempt-1 tute" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt1" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attempt-2 tute" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt2" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attempt-3 tute" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt3" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attempt-4 simple" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt4s" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attempt-4 tute" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt4" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attempt-5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Attempt5s" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CON3-UseAccount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con3.lecture.account.UseAccount" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CON3-UseBuffer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con3.tute.UseBuffer" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CON3-UseMonitorAccount-2C" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con3.lecture.account.UseMonitorAccount_2C" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CON3-UseMonitorAccount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con3.lecture.account.UseMonitorAccount" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CON3-UseSync" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con3.tute.UseSynchronise" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConQuick" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.ConQuick" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Count-tute" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.Count" />
+      <module name="SWEN90004" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.lecture.CountMain" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SWEN90004" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqQuick" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="con02.tute.SeqQuick" />
+      <module name="SWEN90004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Attempt-5" />
+      <item itemvalue="Application.CON3-UseAccount" />
+      <item itemvalue="Application.CON3-UseBuffer" />
+      <item itemvalue="Application.CON3-UseSync" />
+      <item itemvalue="Application.CON3-UseMonitorAccount" />
+      <item itemvalue="Application.CON3-UseMonitorAccount-2C" />
+      <item itemvalue="Application.CountMain" />
+      <item itemvalue="Application.Count-tute" />
+      <item itemvalue="Application.Attempt-1 tute" />
+      <item itemvalue="Application.Attempt-2 tute" />
+      <item itemvalue="Application.Attempt-3 tute" />
+      <item itemvalue="Application.Attempt-4 tute" />
+      <item itemvalue="Application.Attempt-4 simple" />
+      <item itemvalue="Application.ConQuick" />
+      <item itemvalue="Application.SeqQuick" />
+      <item itemvalue="Application.Main" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fd0b963-6002-4ad3-8980-aece580a1640" name="Default Changelist" comment="" />
+      <created>1575954545752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575954545752</updated>
+      <workItem from="1575954550089" duration="8202000" />
+      <workItem from="1576310105074" duration="180000" />
+      <workItem from="1576310411331" duration="61000" />
+      <workItem from="1583541660069" duration="64000" />
+      <workItem from="1583542192517" duration="2576000" />
+      <workItem from="1583577553299" duration="14088000" />
+      <workItem from="1583705256360" duration="927000" />
+      <workItem from="1584095408413" duration="4444000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add con02 files.&#10;Solved ConQuick - consequent quick sort">
+      <created>1576061791381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576061791381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixwd ConQuick as per tute solution">
+      <created>1576064549554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576064549554</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ConQuick class now implements Runnable">
+      <created>1583582319157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583582319157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Attempt1 for tute Count problem">
+      <created>1583585019765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583585019765</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Attempt2 for tute Count problem">
+      <created>1583628112419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583628112419</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Attempt3 for tute Count problem">
+      <created>1583628576522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583628576522</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Attempt4 with simple version for tute Count problem">
+      <created>1583630510451</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583630510451</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Attempt5 Dekker for tute Count problem">
+      <created>1583631638895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583631638895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lecture con3 sources Account and Count">
+      <created>1584095997945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584095997945</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tutorial con3 sources">
+      <created>1584140784806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584140784806</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add con02 files.&#10;Solved ConQuick - consequent quick sort" />
+    <MESSAGE value="Fixwd ConQuick as per tute solution" />
+    <MESSAGE value="ConQuick class now implements Runnable" />
+    <MESSAGE value="Attempt1 for tute Count problem" />
+    <MESSAGE value="Attempt2 for tute Count problem" />
+    <MESSAGE value="Attempt3 for tute Count problem" />
+    <MESSAGE value="Attempt4 with simple version for tute Count problem" />
+    <MESSAGE value="Attempt5 Dekker for tute Count problem" />
+    <MESSAGE value="Lecture con3 sources Account and Count" />
+    <MESSAGE value="Tutorial con3 sources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tutorial con3 sources" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1744" y="-122" width="1071" height="670" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584141215296">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="1744" y="-122" width="1071" height="670" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141215296" />
+    <state x="2093" y="-61" key="#com.intellij.ide.util.MemberChooser" timestamp="1583584580240">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="2093" y="-61" key="#com.intellij.ide.util.MemberChooser/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1583584580240" />
+    <state x="2017" y="7" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584141213015">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="2017" y="7" key="#com.intellij.ide.util.TreeClassChooserDialog/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141213015" />
+    <state x="1948" y="-297" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584097712987">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="1948" y="-297" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584097712987" />
+    <state x="1891" y="-181" key="CommitChangelistDialog2" timestamp="1584140784658">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="1891" y="-181" key="CommitChangelistDialog2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584140784658" />
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1584141244529">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244529" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1584141244528">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="279" key="GridCell.Tab.0.center/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244528" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1584141244528">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="279" key="GridCell.Tab.0.left/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244528" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1584141244529">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="279" key="GridCell.Tab.0.right/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244529" />
+    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2" timestamp="1584140792974">
+      <screen x="1440" y="-297" width="1680" height="1027" />
+    </state>
+    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584140792974" />
+    <state x="397" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1584095408313">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="397" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1583705324360" />
+    <state x="397" y="272" key="com.intellij.ide.util.TipDialog/1440.-297.1680.1027/0.23.1440.833@0.23.1440.833" timestamp="1584095408313" />
+    <state x="1903" y="10" key="com.intellij.ide.util.TipDialog/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1583577553005" />
+  </component>
+</project>
