@@ -28,7 +28,7 @@ public class ConQuick implements Runnable {
     private void quicksort() {
 
         // quicksort until the array is largely sorted
-        if (lo + 60 < hi) {
+        while (lo + 60 < hi) {
             int pivot = partition(lo, hi);
 
             // sort the lower side of the array in a NEW thread
