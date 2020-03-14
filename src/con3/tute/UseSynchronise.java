@@ -58,7 +58,7 @@ class Q extends Thread {
 
 class Synchronise {
     int count = 0;
-    final int PROCS = 1;
+    final int PROCS = 2;
 
     public synchronized void synch() {
         ++count;
