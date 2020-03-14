@@ -25,33 +25,43 @@ class BoundedBufferSemaphore {
 
     public BoundedBufferSemaphore() {
         buffer = new ArrayList<Integer>();
-        mutex = new Semaphore(1);
-        notEmpty = new Semaphore(0);
-        notFull = new Semaphore(MAXSIZE);
+        mutex = new Semaphore(1); // main semaphore
+        notEmpty = new Semaphore(0); // = number of elements in the buffer
+        notFull = new Semaphore(MAXSIZE); // = number of empty slots for elements
     }
 
-    // add an element to the end of the buffer if it is not full
+    /**
+     * Add an element to the end of the buffer if it is not full
+     *   wait for buffer to empty a slot otherwise
+     * @param input element to add
+     * @throws InterruptedException
+     */
     public void put(int input) throws InterruptedException {
         try {
-            notFull.acquire();
-            mutex.acquire();
+            notFull.acquire(); // -- number of slots
+            mutex.acquire(); // get permission
         } catch (InterruptedException e) {}
         buffer.add(input);
 
-        mutex.release();
-        notEmpty.release();
+        mutex.release(); // release permission
+        notEmpty.release(); // ++ number of elements
     }
 
-    // take an element from the front of the buffer
+    /**
+     * Take an element from the front of the buffer if it is not empty
+     *   wait for elements to appear otherwise
+     * @return element from the front of the buffer
+     * @throws InterruptedException
+     */
     public int get() throws InterruptedException {
         try {
-            notEmpty.acquire();
-            mutex.acquire();
+            notEmpty.acquire(); // -- number of elements
+            mutex.acquire(); // get permission
         } catch (InterruptedException e) {}
         int result = buffer.remove(0);
 
-        mutex.release();
-        notFull.release();
+        mutex.release(); // release permission
+        notFull.release(); // ++ number of slots
         return result;
     }
 
@@ -80,12 +90,12 @@ class ProducerSemaphore extends Thread {
         try {
             while (true) {
 
-                //insert a random integer
+                //insert a random integer 0..999
                 int next = random.nextInt(1000);
                 buffer.put(next);
 
                 //sleep for a random period between
-                //0 and 99 milliseconds
+                //0 and 50 milliseconds
                 int sleep = random.nextInt(50);
                 Thread.sleep(sleep);
 
@@ -100,8 +110,7 @@ class ProducerSemaphore extends Thread {
  * buffer at random intervals.
  */
 
-class ConsumerSemaphore extends Thread
-{
+class ConsumerSemaphore extends Thread {
     // the buffer in which to insert new integers
     BoundedBufferSemaphore buffer;
 
@@ -125,13 +134,13 @@ class ConsumerSemaphore extends Thread
                 int sleep = random.nextInt(50);
                 Thread.sleep(sleep);
             }
-        } catch (InterruptedException e) {}
+        } catch (InterruptedException ignored) {}
     }
 }
 
 public class UseBufferSemaphore {
-    public static void main(String [] args)
-    {
+    public static void main(String [] args) {
+
         BoundedBufferSemaphore buffer = new BoundedBufferSemaphore();
         ProducerSemaphore p = new ProducerSemaphore(buffer);
         ConsumerSemaphore c = new ConsumerSemaphore(buffer);
