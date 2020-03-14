@@ -57,16 +57,15 @@ class Q extends Thread {
 }
 
 class Synchronise {
-    int count = 0;
-    final int PROCS = 1;
+    boolean flag = false;
 
     public synchronized void synch() {
-        ++count;
-        if (count == PROCS) {
-            notifyAll();
-            count = 0;
+        if (flag) {
+            notify();
+            flag = false;
         } else {
             // waiting for other thread
+            flag = true;
             try {
                 wait();
             } catch (InterruptedException e) { }
