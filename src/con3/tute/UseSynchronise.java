@@ -10,7 +10,7 @@ class P extends Thread {
     }
 
     public void run() {
-        while (true) {
+        for (int i=0; i<10; ++i) {
             task1p();
             s.synch();
             task2p();
@@ -38,7 +38,7 @@ class Q extends Thread {
     }
 
     public void run() {
-        while (true) {
+        for (int i=0; i<10; ++i) {
             task1q();
             s.synch();
             task2q();
@@ -57,10 +57,20 @@ class Q extends Thread {
 }
 
 class Synchronise {
-    // any useful variables go here
+    int count = 0;
+    final int PROCS = 1;
 
     public synchronized void synch() {
-        // the code to synchronise goes here
+        ++count;
+        if (count == PROCS) {
+            notifyAll();
+            count = 0;
+        } else {
+            // waiting for other thread
+            try {
+                wait();
+            } catch (InterruptedException e) { }
+        }
     }
 }
 
@@ -71,5 +81,12 @@ class UseSynchronise {
         Thread q = new Q(s);
         p.start();
         q.start();
+
+        try {
+            p.join();
+            q.join();
+        } catch (InterruptedException e) {
+            System.out.println("Exception: " + e.toString());
+        }
     }
 }

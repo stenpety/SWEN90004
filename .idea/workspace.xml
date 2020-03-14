@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd0b963-6002-4ad3-8980-aece580a1640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/con3/tute/UseBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/con3/tute/UseBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/con3/tute/UseSynchronise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/con3/tute/UseSynchronise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +239,7 @@
       <workItem from="1583542192517" duration="2576000" />
       <workItem from="1583577553299" duration="14088000" />
       <workItem from="1583705256360" duration="927000" />
-      <workItem from="1584095408413" duration="4444000" />
+      <workItem from="1584095408413" duration="9925000" />
     </task>
     <task id="LOCAL-00001" summary="Add con02 files.&#10;Solved ConQuick - consequent quick sort">
       <created>1576061791381</created>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584140784806</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tutorial con3 refactor, add config">
+      <created>1584141360676</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584141360676</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,8 @@
     <MESSAGE value="Attempt5 Dekker for tute Count problem" />
     <MESSAGE value="Lecture con3 sources Account and Count" />
     <MESSAGE value="Tutorial con3 sources" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tutorial con3 sources" />
+    <MESSAGE value="Tutorial con3 refactor, add config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tutorial con3 refactor, add config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1744" y="-122" width="1071" height="670" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584141215296">
@@ -348,30 +355,30 @@
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
     <state x="1948" y="-297" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584097712987" />
-    <state x="1891" y="-181" key="CommitChangelistDialog2" timestamp="1584140784658">
+    <state x="1891" y="-181" key="CommitChangelistDialog2" timestamp="1584141360536">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state x="1891" y="-181" key="CommitChangelistDialog2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584140784658" />
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1584141244529">
+    <state x="1891" y="-181" key="CommitChangelistDialog2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141360536" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1584150968946">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244529" />
-    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1584141244528">
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584150968946" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1584150968945">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.center/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244528" />
-    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1584141244528">
+    <state width="1638" height="346" key="GridCell.Tab.0.center/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584150968945" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1584150968945">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.left/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244528" />
-    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1584141244529">
+    <state width="1638" height="346" key="GridCell.Tab.0.left/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584150968945" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1584150968946">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.right/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141244529" />
-    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2" timestamp="1584140792974">
+    <state width="1638" height="346" key="GridCell.Tab.0.right/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584150968946" />
+    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2" timestamp="1584141366443">
       <screen x="1440" y="-297" width="1680" height="1027" />
     </state>
-    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584140792974" />
+    <state x="1880" y="-44" key="Vcs.Push.Dialog.v2/1440.-297.1680.1027/0.23.1440.833@1440.-297.1680.1027" timestamp="1584141366443" />
     <state x="397" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1584095408313">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
