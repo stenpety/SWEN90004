@@ -23,17 +23,25 @@ class BoundedBuffer {
     }
 
     // add an element to the end of the buffer if it is not full
-    public synchronized void put(int input)
-            throws InterruptedException {
-        if (buffer.size() < MAXSIZE) {
-            buffer.add(input);
+    public synchronized void put(int input) throws InterruptedException {
+        while (buffer.size() >= MAXSIZE) {
+            try {
+                wait();
+            } catch (InterruptedException e) {}
         }
+        buffer.add(input);
+        notifyAll();
     }
 
     // take an element from the front of the buffer
-    public synchronized int get()
-            throws InterruptedException {
+    public synchronized int get() throws InterruptedException {
+        while (0 == buffer.size()) {
+            try {
+                wait();
+            } catch (InterruptedException e) {}
+        }
         int result = buffer.remove(0);
+        notifyAll();
         return result;
     }
 
@@ -64,7 +72,7 @@ class Producer extends Thread {
             while (true) {
 
                 //insert a random integer
-                int next = random.nextInt();
+                int next = random.nextInt(1000);
                 buffer.put(next);
 
                 //sleep for a random period between
